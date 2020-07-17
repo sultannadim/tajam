@@ -1,0 +1,717 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+
+
+@media (max-width: 575.98px) { 
+
+    
+     .navbar-light .navbar-nav .nav-link {
+
+         padding: 10px 0px;
+         text-align: center;
+     }
+
+     .navbar-light .navbar-nav .nav-link::after {
+         position: absolute;
+         content: '';
+         width: 0%;
+         left: 0%;
+
+         height: 0px;
+         background: none;
+         top: 0px;
+         opacity: 0;
+     }
+
+     .navbar-nav {
+
+         background: #1B1530;
+     }
+
+     .nav-item {
+         border-bottom: 1px solid #4e4960;
+     }
+
+     .nav-item:last-child {
+         border-bottom: none;
+     }
+
+     .navbar-light .navbar-toggler {
+
+         background: #4E4862;
+     }
+
+     .banner_text {
+
+         padding: 120px 0px 70px 0px;
+
+     }
+
+     .banner_text p {
+
+         padding: 0px 0px 20px 0px;
+     }
+
+     .slick-dots {
+
+         left: 48%;
+         transform: translateX(-50%);
+         bottom: 20px;
+         margin-top: 20px;
+
+     }
+
+     .about_text h2 {
+
+         text-align: center;
+         padding-top: 25px;
+     }
+
+     .about_text a {
+
+         width: 100%;
+         text-align: center;
+     }
+
+     #about_part {
+         padding: 40px 0px;
+
+     }
+
+     #video_part {
+         padding: 80px 0px 70px 0px;
+     }
+
+     #service_part {
+
+         padding: 40px 0px;
+     }
+
+     .service_content {
+         padding-top: 40px;
+     }
+
+     .arrow_right {
+
+         right: 10px;
+     }
+
+     .arrow_left {
+
+         left: 34px;
+
+     }
+    
+
+     #team_part {
+
+         padding: 40px 0px;
+
+     }
+    .team_member{
+        width: 375px;
+        margin: 0 auto;
+    }
+
+     #project_part {
+
+         padding: 40px 0px;
+     }
+
+     .project_left h3 {
+
+         text-align: center;
+     }
+
+     .project_right p {
+
+         text-align: center;
+     }
+
+     .project_top {
+         padding-bottom: 20px;
+     }
+
+     .project_img {
+         text-align: center;
+         margin-bottom: 10px;
+     }
+
+     .project_img img {
+         width: 375px;
+     }
+
+     .project_bottom {
+         padding-top: 30px;
+     }
+
+     #team_part_two {
+
+         padding: 40px 0px;
+
+     }
+
+     .team2text p {
+         padding: 0px 0px 40px 0px;
+     }
+
+     .team2img img {
+         width: 100px;
+         height: 100px;
+     }
+
+     .team2left_arrow {
+
+         left: 2%;
+         top: 77%;
+     }
+
+     .slider_img {
+
+         width: 400px;
+     }
+
+     .team2right_arrow {
+         top: 77%;
+         right: 2%;
+     }
+
+     .form h3,
+     .contact_right h3 {
+
+         padding-bottom: 30px;
+         padding-top: 30px;
+         text-align: center;
+     }
+
+     #contact_part {
+         padding: 20px 0px;
+     }
+
+     .footer_top_left {
+
+         text-align: center;
+         padding-bottom: 18px;
+     }
+
+     .footer_top_middle {
+         padding-bottom: 0px;
+         text-align: center;
+     }
+
+     .footer_top_right {
+
+         text-align: center;
+
+     }
+
+     .form-inline {
+         position: absolute;
+         left: 25%;
+
+     }
+
+     .footer_top_right ul {
+
+         margin-top: 5px;
+     }
+
+     .footer_top_middle h3,
+     .footer_top_right h3 {
+
+         margin-top: 15px;
+         padding-bottom: 25px;
+     }
+
+     .search_footer {
+
+         padding: 20px 20px;
+
+     }
+
+     .footer_top_right ul {
+         margin-top: 80px;
+     }
+
+     .footer_top_right ul li {
+         float: none;
+         text-align: center;
+         display: inline-block;
+     }
+
+     .send_btn {
+
+         margin-left: 10px;
+     }
+
+     .footer_top_left p {
+
+         padding: 0px 0px 0px 0px;
+
+     }
+
+     .footer_top_middle p {
+
+         padding: 0px 0px 0px 0px;
+     }
+
+     .footer_bottom_right p {
+
+         text-align: center;
+     }
+
+     .footer_bottom_left ul li {
+         float: none;
+         display: inline-block;
+     }
+
+     .footer_bottom_left ul {
+         margin: 25px 0px 10px 0px;
+         text-align: center;
+     }
+
+     #footer_part {
+
+         padding: 40px 0px;
+     }
+
+     .footer_bottom {
+         margin-top: 0px;
+     }
+
+
+
+
+}
+
+
+
+
+
+
+
+/* Small devices (landscape phones, 576px and up)*/
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    
+    
+    .navbar-light .navbar-nav .nav-link {
+
+        padding: 10px 0px;
+        text-align: center;
+    }
+
+    .navbar-light .navbar-nav .nav-link::after {
+        position: absolute;
+        content: '';
+        width: 0%;
+        left: 0%;
+
+        height: 0px;
+        background: none;
+        top: 0px;
+        opacity: 0;
+    }
+
+    .navbar-nav {
+
+        background: #1B1530;
+    }
+
+    .nav-item {
+        border-bottom: 1px solid #4e4960;
+    }
+
+    .nav-item:last-child {
+        border-bottom: none;
+    }
+
+    .navbar-light .navbar-toggler {
+
+        background: #4E4862;
+    }
+
+    .banner_text {
+
+        padding: 120px 0px 70px 0px;
+
+    }
+
+    .banner_text p {
+
+        padding: 0px 0px 20px 0px;
+    }
+
+    .slick-dots {
+
+        left: 48%;
+        transform: translateX(-50%);
+        bottom: 20px;
+
+    }
+
+    .about_text h2 {
+
+        text-align: center;
+        padding-top: 25px;
+    }
+
+    .about_text a {
+
+        width: 100%;
+        text-align: center;
+    }
+
+    #about_part {
+        padding: 40px 0px;
+
+    }
+
+    #video_part {
+        padding: 80px 0px 70px 0px;
+    }
+
+    #service_part {
+
+        padding: 40px 0px;
+    }
+
+    .service_content {
+        padding-top: 40px;
+    }
+
+    .arrow_right {
+
+        right: 40px;
+    }
+
+    .arrow_left {
+
+        left: 63px;
+
+    }
+
+    #team_part {
+
+        padding: 40px 0px;
+
+    }
+
+    #project_part {
+
+        padding: 40px 0px;
+    }
+
+    .project_left h3 {
+
+        text-align: center;
+    }
+
+    .project_right p {
+
+        text-align: center;
+    }
+
+    .project_top {
+        padding-bottom: 20px;
+    }
+
+    .project_img {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .project_bottom {
+        padding-top: 30px;
+    }
+
+    #team_part_two {
+
+        padding: 40px 0px;
+
+    }
+
+    .team2text p {
+        padding: 0px 0px 40px 0px;
+    }
+
+    .team2img img {
+        width: 115px;
+        height: 115px;
+    }
+
+    .team2left_arrow {
+
+        left: 7.5%;
+        top: 74%;
+    }
+
+    .team2right_arrow {
+        top: 74%;
+        right: 7%;
+    }
+
+    .form h3,
+    .contact_right h3 {
+
+        padding-bottom: 30px;
+        padding-top: 15px;
+        text-align: center;
+    }
+
+    #contact_part {
+        padding: 20px 0px;
+    }
+
+    .footer_top_left {
+
+        text-align: center;
+        padding-bottom: 18px;
+    }
+
+    .footer_top_middle {
+        padding-bottom: 0px;
+        text-align: center;
+    }
+
+    .footer_top_right {
+
+        text-align: center;
+
+    }
+
+    .form-inline {
+        position: absolute;
+        left: 65%;
+    }
+
+    .footer_top_right ul {
+
+        margin-top: 5px;
+    }
+
+    .footer_top_middle h3,
+    .footer_top_right h3 {
+
+        margin-top: 15px;
+        padding-bottom: 25px;
+    }
+
+    .search_footer {
+
+        padding: 20px 10px;
+
+    }
+
+    .footer_top_left p {
+
+        padding: 0px 0px 0px 0px;
+
+    }
+
+    .footer_top_middle p {
+
+        padding: 0px 0px 0px 0px;
+    }
+
+    .footer_bottom_right p {
+
+        text-align: center;
+    }
+
+    .footer_bottom_left ul li {
+        float: none;
+        display: inline-block;
+    }
+
+    .footer_bottom_left ul {
+        margin: 25px 0px 10px 0px;
+        text-align: center;
+    }
+
+    #footer_part {
+
+        padding: 40px 0px;
+    }
+
+
+
+}
+
+
+
+
+
+
+/*Medium devices (tablets, 768px and up)*/
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .navbar-light .navbar-nav .nav-link {
+
+        padding: 10px 0px;
+        text-align: center;
+    }
+
+    .navbar-light .navbar-nav .nav-link::after {
+        position: absolute;
+        content: '';
+        width: 0%;
+        left: 0%;
+
+        height: 0px;
+        background: none;
+        top: 0px;
+        opacity: 0;
+    }
+
+    .navbar-nav {
+
+        background: #1B1530;
+    }
+
+    .nav-item {
+        border-bottom: 1px solid #4e4960;
+    }
+
+    .nav-item:last-child {
+        border-bottom: none;
+    }
+
+    .navbar-light .navbar-toggler {
+
+        background: #4E4862;
+    }
+
+    .banner_text {
+
+        padding: 150px 0px 150px 0px;
+
+    }
+
+    .banner_text p {
+
+        padding: 0px 0px 20px 0px;
+    }
+
+    .about_text h2 {
+
+        text-align: center;
+        padding-top: 25px;
+    }
+
+    .about_text a {
+
+        width: 100%;
+        text-align: center;
+    }
+
+    #video_part {
+        padding: 150px 0px;
+    }
+
+    #service_part {
+
+        padding: 45px 0px;
+    }
+
+    .service_content {
+        padding-top: 40px;
+    }
+
+    .arrow_right {
+
+        right: 40px;
+    }
+
+    .arrow_left {
+
+        left: 63px;
+
+    }
+
+    .project_bottom a {
+
+        width: 100%;
+        display: block;
+    }
+
+    .team2left_arrow {
+
+        left: 17.5%;
+        top: 74%;
+    }
+
+    .team2right_arrow {
+        top: 74%;
+        right: 17%;
+    }
+
+    .form h3,
+    .contact_right h3 {
+
+        padding-top: 25px;
+        text-align: center;
+    }
+
+    .imgpadding img {
+        margin-bottom: 35px;
+    }
+
+    .footer_top_left {
+
+        text-align: center;
+        padding-bottom: 18px;
+    }
+
+    .footer_top_middle {
+        padding-bottom: 0px;
+        text-align: center;
+    }
+
+    .footer_top_right {
+
+        text-align: center;
+
+    }
+
+    .form-inline {
+        position: absolute;
+        left: 50%;
+    }
+
+    .footer_top_right ul {
+
+        margin-top: 5px;
+    }
+
+    .footer_top_middle h3,
+    .footer_top_right h3 {
+
+        margin-top: 15px;
+        padding-bottom: 25px;
+    }
+    .footer_top_left p {
+
+        padding: 0px 70px 0px 70px;
+
+    }
+
+    .footer_top_middle p {
+
+        padding: 0px 70px 0px 70px;
+
+    }
+
+
+
+    }
+
+
+
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {  }
